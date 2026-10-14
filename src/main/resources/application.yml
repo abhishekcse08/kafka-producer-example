@@ -7,3 +7,7 @@ spring:
   kafka:
     producer:
       bootstrap-servers: localhost:9092
+      # Serializers: key as String, value as JSON (via Jackson)
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
+
