@@ -11,7 +11,7 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class KafkaMessagePublisher {
 
-    public static final String TOPIC_NAME="myTopicPr8";
+    public static final String TOPIC_NAME="myTopicPr9";
 
     @Autowired
     private KafkaTemplate<String,Object> kafkaTemplate;

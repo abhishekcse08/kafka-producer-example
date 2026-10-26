@@ -10,7 +10,7 @@ public class KafkaProducerConfig {
     @Bean
     public NewTopic createTopic(){
 
-        return new NewTopic("myTopicPr8", 3, (short) 1);
+        return new NewTopic("myTopicPr9", 3, (short) 1);
     }
 }
 
